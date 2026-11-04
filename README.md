@@ -62,6 +62,11 @@ attached to the Releases alongside the APK.
 
 ## Version
 
+v9.17 — Coach now uses the `gemini-3.8-flash` model (Google retired
+`gemini-2.0-flash`), and Gemini errors are shown plainly with the
+offline coach reply underneath instead of a cryptic crash message.
+Also fixes a double full stop at the end of error lines.
+
 v9.15 — the first version with the animated-picture splash (earlier
 native-video splash attempts did not play on the test phone, so the
 video player was replaced with a Flutter-native animated image).
