@@ -70,3 +70,15 @@ Also fixes a double full stop at the end of error lines.
 v9.15 — the first version with the animated-picture splash (earlier
 native-video splash attempts did not play on the test phone, so the
 video player was replaced with a Flutter-native animated image).
+
+## AI coach note
+
+The Gemini chatbot needs your own API key in Settings. A Google AI Plus
+subscription covers the Gemini app, not Gemini API billing — API calls are
+billed through a separate Cloud project. On a free-tier Cloud project the
+API can return HTTP 403, in which case the app shows the error plainly and
+the fully offline coach still answers underneath.
+
+## GitHub achievements
+
+See [ACHIEVEMENTS.md](ACHIEVEMENTS.md) for the badge hunt on this profile.
